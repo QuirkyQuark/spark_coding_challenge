@@ -1,0 +1,2 @@
+Column 1,Column 2,Column 3,Column 4,Column 5,Column 6,Column 7,Column 8,Column 9,Column 10,Column 11,Column 12,Column 13,Column 14,Column 15,Column 16,Column 17, Column 18
+245.99.109.04,"",,-,-20,20-,1-1,--,20--,-19-,255-255-255-0255,--20,20-20-,-16-17,18--12,19-20-21,256-255-255-255,A-03-04-05,255.255.234:123
