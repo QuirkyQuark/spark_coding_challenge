@@ -1,4 +1,28 @@
 # Spark Coding Challenge
+
+## Repo Contents
+
+├── README.md
+├── tests
+│   ├── run_tests.sh
+│   ├── test1
+│   │   ├── expected.txt
+│   │   └── input.txt
+│   ├── test2
+│   │   ├── expected.txt
+│   │   └── input.txt
+│   ├── test3
+│   │   ├── expected.txt
+│   │   └── input.txt
+│   └── test4
+│       ├── expected.txt
+│       └── input.txt
+└── validate_ipv4.py
+
+- `validate_ipv4.py` is the Spark python script designed to validate IPv4 addresses according to the problem description below.
+- `run_tests.sh` is a Bash script to run the tests and print whether the test passes (i.e. whether the expected output matches the actual output).
+- Each test has its own directory. The `input.txt` is a csv file that contains the Spark DataFrame with IPv4 addresses to validate. The `expected.txt` is a csv file that contains the columns from `input.txt` with valid IPv4 addresses.
+
 ## Problem Statement
 Imagine that you have a table available to you as a Spark Dataframe. Each entry is an IPv4 Address. Your task is to return the columns where all the values in these columns are correctly formatted. The correct formats are: y.y.y.y, y-y-y-y and y:y:y:y" (0<=y<=255) and nothing else. You can assume that your task is to validate the format and not the content (that means 0.0.0.0 and 255.255.255.255 are all valid values).
 
