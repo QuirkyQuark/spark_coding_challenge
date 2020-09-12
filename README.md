@@ -2,22 +2,22 @@
 
 ## Repo Contents
 
-├── README.md
-├── tests
-│   ├── run_tests.sh
-│   ├── test1
-│   │   ├── expected.txt
-│   │   └── input.txt
-│   ├── test2
-│   │   ├── expected.txt
-│   │   └── input.txt
-│   ├── test3
-│   │   ├── expected.txt
-│   │   └── input.txt
-│   └── test4
-│       ├── expected.txt
-│       └── input.txt
-└── validate_ipv4.py
+    ├── README.md
+    ├── tests
+    │   ├── run_tests.sh
+    │   ├── test1
+    │   │   ├── expected.txt
+    │   │   └── input.txt
+    │   ├── test2
+    │   │   ├── expected.txt
+    │   │   └── input.txt
+    │   ├── test3
+    │   │   ├── expected.txt
+    │   │   └── input.txt
+    │   └── test4
+    │       ├── expected.txt
+    │       └── input.txt
+    └── validate_ipv4.py
 
 - `validate_ipv4.py` is the Spark python script designed to validate IPv4 addresses according to the problem description below.
 - `run_tests.sh` is a Bash script to run the tests and print whether the test passes (i.e. whether the expected output matches the actual output).
